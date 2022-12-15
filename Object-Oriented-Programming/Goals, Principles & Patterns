@@ -6,3 +6,14 @@ The class definition briefly tells the instance variables, also known as data me
 1.1 Robustness - We should always produce a code that produces right output for all the anitipated inputs in the program's application. We should always keep in mind that our that our code should be robust.
 1.2 Adaptibility - Software needs to be evolved with all the environments making it adaptive to all the changes. You can also relate this to of the major concept Portability which is the ability of software to run with minimal change on different hardware and OS platforms.
 1.3 Reusability =  The software should be resuable.
+
+2. Object Oriented Programming Principles
+2.1 Modularity
+2.2 Abstraction
+2.3 Encapsulation
+
+3 Design Patterns
+Design patterns fall under two groups-
+Algorithm Design Patterns --> Recursion, Divide-and-Conqueror, Brute Force, Greedy Method
+Software Design Patterns --> Iterator, Adapter, Position, Composition, Template Method, Factory Method
+
