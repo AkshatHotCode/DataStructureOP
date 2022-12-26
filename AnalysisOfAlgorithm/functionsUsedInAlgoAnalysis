@@ -1,0 +1,30 @@
+1. CONSTANT FUNCTION
+This is the simplest function we can think of. f(n) = c, i.e., fir some fixed constant c, such as c = 5, c =27. fo any argument n, the constant function f(n) assignes the value c.
+In layman words, it doesnt change the value of n, it will be always be equal to the constant value c.
+
+2. LOGARITHMIC FUCNTION
+Ubiquitous presence of the logarithm function, f(n)=logbn, for some constant b > 1.
+The value of b is known as base of the logarithm.
+The most common base for the log function in computer science is 2, as computers store integers in binary, and common operation is to repeteadly divide an input in half.
+
+3. LINEAR FUNCTION
+Simple yet importnatn fucntion is the linear function.
+f(n) = n.
+Given the input value n, the linear function f assigns the value n itself.
+
+4. THE N-Log-N FUNCTION
+the function that assigns to an input n the value of n times the logarithm base-two of n. This funciton grows a little more rapidly than the linear funcition and a lot less rapidly than the quadratic fucntion.
+We will see important functions taht exhibits a running time proportional to the n-log-n function. For example the fastest possible algo for sorting n arbitrary values require time proportionate to n log n.
+
+5. QUADRATIC FUNCTION
+f(n) = n*2
+
+given an input value n, the function f assigns the product of n with itself.
+
+6. NESTED LOOPS AND QUADRATIC FUNCTION
+Where the 1st iteration of a loop uses one operataion, the 2nd uses two operation, the 3rd uses three operation, and so on.
+1+2+3.......+(n-2)+(n-1)+n
+
+7. CUBIC FUCNTION AND OTHER POLYNOMIALS
+f(n0 = n*3
+input value n of the product of n with itself three times.

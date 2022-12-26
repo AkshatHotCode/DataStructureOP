@@ -2,12 +2,12 @@
 
 #Numeric Progression is sequence of numbers, where each numbers depends on one or more of the previous numbers.
 # --> Arithmetic Progression - determines the next number by adding a foxed constant to the previous value. (a1 + n-1)d
-# --> Geometric Progression determines the next number by multiplying the previous valur by a fixed constant.
+# --> Geometric Progression - determines the next number by multiplying the previous valur by a fixed constant.
 
 #An Generic Numeric Progression Class
 class Progression:
     """Iterator producing a generic progression.
-    Default iterator produces an whole number. 0,1,2,3,...."""
+    Default iterator produces a whole number. 0,1,2,3,...."""
 
     def __init__(self, start=0):
         """Starting the current to the first value of the progression."""
@@ -73,7 +73,7 @@ class FibonacciProgression(Progression): #inherit from Progression
         self._prev, self._current = self._current, self._prev + self._current
 
 
-#+++++++++++++++++++++TESTING OUR PROGRESSION++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++TESTING OUR PROGRESSION+++++++++++++++++++++++++++++++++++++++++++
 if __name__ == '__main__':
     print("Default Progression: ")
     Progression().print_progression(10)
