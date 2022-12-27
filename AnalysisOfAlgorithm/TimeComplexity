@@ -1,0 +1,4 @@
+Time Complexity is the study of the efficiency of algorithms. It tells us ow much time is taken b an algorithm to process a given input.
+
+O(n) --> Linear
+O(1) --> Constant

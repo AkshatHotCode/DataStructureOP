@@ -17,7 +17,7 @@ the function that assigns to an input n the value of n times the logarithm base-
 We will see important functions taht exhibits a running time proportional to the n-log-n function. For example the fastest possible algo for sorting n arbitrary values require time proportionate to n log n.
 
 5. QUADRATIC FUNCTION
-f(n) = n*2
+f(n) = n^2
 
 given an input value n, the function f assigns the product of n with itself.
 
@@ -26,5 +26,5 @@ Where the 1st iteration of a loop uses one operataion, the 2nd uses two operatio
 1+2+3.......+(n-2)+(n-1)+n
 
 7. CUBIC FUCNTION AND OTHER POLYNOMIALS
-f(n0 = n*3
+f(n) = n^3
 input value n of the product of n with itself three times.
