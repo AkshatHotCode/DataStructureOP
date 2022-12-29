@@ -5,3 +5,14 @@ O(1) --> Constant
 O(log n) --> Logarithmic Time --> Given an input of size n, the number of steps it takes to accomplish the task are decreased by some factor with each step.
 O(n^2) --> Quadratic TIme --> Given an input of size n, the number of steps it takes to accomplish a task is square of n.
 O(C^n) --> Exponential TIme --> Given the input of size n, the numbers of steps it takes to accomplish a task is a constant to the n power( Pretty large number).
+
+Using the above explanation, let's put some code and see how it actually works and the number of steps each of these time complexities entails.
+
+len n = 16
+O(1) = 1 step "(Great! Awesome!)"
+O(log n) = 4 steps "(Good! Great)" --> assume base 2
+O(n) = 16 steps "(Pretty Good)"
+O(n^2) = 256 steps "(Noo, this won't work, senior won't accept it!)"
+O(2^n) = 65,536 steps "(Go home! An think wisely then come back.)"
+
+As you can see, things can easily become orders of magnitude more complex depending on the complexity of your algorithm. Luckily, computers are powerful enough to still handle really large complexities relatively quickly.
