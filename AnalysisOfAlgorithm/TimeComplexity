@@ -2,3 +2,6 @@ Time Complexity is the study of the efficiency of algorithms. It tells us ow muc
 
 O(n) --> Linear
 O(1) --> Constant
+O(log n) --> Logarithmic Time --> Given an input of size n, the number of steps it takes to accomplish the task are decreased by some factor with each step.
+O(n^2) --> Quadratic TIme --> Given an input of size n, the number of steps it takes to accomplish a task is square of n.
+O(C^n) --> Exponential TIme --> Given the input of size n, the numbers of steps it takes to accomplish a task is a constant to the n power( Pretty large number).
