@@ -7,5 +7,5 @@ def constant_algorithm(items):
 
 constant_algorithm([14, 11, 26])
 
-"""Therefore, irrespective of the input sixe, or the number of items in the input list items, the algorithm performs only 2 steps: 1st --> Finding the sqaure, 2nf --> Printing.
+"""Therefore, irrespective of the input sixe, or the number of items in the input list items, the algorithm performs only 2 steps: 1st --> Finding the sqaure, 2nd --> Printing.
 Hence the complexity remains constant."""
