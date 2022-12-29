@@ -5,6 +5,8 @@ O(1) --> Constant
 O(log n) --> Logarithmic Time --> Given an input of size n, the number of steps it takes to accomplish the task are decreased by some factor with each step.
 O(n^2) --> Quadratic TIme --> Given an input of size n, the number of steps it takes to accomplish a task is square of n.
 O(C^n) --> Exponential TIme --> Given the input of size n, the numbers of steps it takes to accomplish a task is a constant to the n power( Pretty large number).
+O(n^3) --> Cubic
+O(n log(n)) --> Log Linear
 
 Using the above explanation, let's put some code and see how it actually works and the number of steps each of these time complexities entails.
 
@@ -16,3 +18,6 @@ O(n^2) = 256 steps "(Noo, this won't work, senior won't accept it!)"
 O(2^n) = 65,536 steps "(Go home! An think wisely then come back.)"
 
 As you can see, things can easily become orders of magnitude more complex depending on the complexity of your algorithm. Luckily, computers are powerful enough to still handle really large complexities relatively quickly.
+Generally speaking - anything worse than linear is considered a bad complexity (i.e. inefficient) and should be avoided if possible. Linear complexity is okay and usually a necessary evil. Logarithmic is good. Constant is amazing!
+
+See on the TimeCompexity.py file for see the examples and gain more understanding on each of the complexity.
