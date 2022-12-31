@@ -1,8 +1,8 @@
-#--------------------WORST VASE AND BEST CASE--------------------------
+#------------------------------WORST CASE AND BEST CASE------------------------------
 
-# Usually, when someone asks you about the complexity of an algorithm - they're interested in the worst-case complexity (Big-O). Sometimes, they might be interested in the best-case complexity as well (Big-Omega).
-#
-# To understand the relationship between these, let's take a look at another piece of code:
+#Usually, when someone asks you about the complexity of an algorithm - they're interested in the worst-case complexity (Big-O). Sometimes, they might be interested in the best-case complexity as well (Big-Omega).
+
+#To understand the relationship between these, let's take a look at another piece of code:
 
 def search_algo(num, items):
     for item in items:
@@ -10,6 +10,7 @@ def search_algo(num, items):
             return True
         else:
             pass
+
 nums = [2, 4, 6, 8, 10]
 
 print(search_algo(2, nums))
