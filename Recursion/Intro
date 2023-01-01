@@ -1,0 +1,6 @@
+Recursion is the entirely different way to achieve repetition.
+
+Recrision os the technique by which a function makes one or more calls t itself during execution, or by which a data structure relies upon
+smaller instances of the type of structure in its representation.
+
+In programming, recursion provides an elegant and powerful alternative for performing repetitive tasks.
