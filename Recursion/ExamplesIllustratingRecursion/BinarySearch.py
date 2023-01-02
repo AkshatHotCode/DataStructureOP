@@ -9,7 +9,7 @@
 #When the sequence is sorted and indexable, there is a much more efficient algorithm.
 
 
-def binary_search(data, target, low, high)
+def binary_search(data, target, low, high):
     """Return True if the target is found in indicated portion of a Python List.
     The search only considers the portion from data[low] to data[high] inclusive.
     """
