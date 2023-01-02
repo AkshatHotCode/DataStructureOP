@@ -10,3 +10,7 @@ def disk_usage(path):
 
     print('{0:7}'.format(total), path)
     return total
+
+if '__name__' == '__main__':
+    path = r"C:\Users\User\Desktop\Bank Statement Examples\tester"
+    print(disk_usage(path))
