@@ -1,0 +1,4 @@
+IN pYhton there are various sequence patterns --> List, Tuple, str classes.
+
+There is a siginificant commonality between these classes, most notably: each supports indexing and each uses a low level concept known as array.
+
